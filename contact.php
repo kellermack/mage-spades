@@ -6,6 +6,25 @@
     <head>
         <meta charset="UTF-8">
         <title></title>
+        <style>
+              html { 
+  background: url(spades.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </style>
         
     </head>
 <body>
@@ -16,9 +35,11 @@
     within 24-48 hours</p>
 
     <form action="contact.php" method="post">
-Name: <input type="text" name="name"><br>
+        Name: <input type="text" name="name"><br><br>
 E-mail: <input type="text" name="email"><br>
-Message: <input type="tesxt" name="message"><br>
+        Message:<br> <textarea rows="4" cols="50"></textarea>  
+
+ 
 
 <input type="submit">
 
