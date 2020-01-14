@@ -19,17 +19,18 @@ html {
 }
 .top-left {
   position: absolute;
-  top: 40px;
-  left: 80px;
+  top: 8px;
+  left: 16px;
   color: red;
   font-size:300%;
+  font-family: "Brush Script MT";
 }
 
 
 .top-right {
   position: absolute;
   top: 8px;
-  right: 16px;
+  right: 185px;
   
 }
 
@@ -51,6 +52,13 @@ h1 {
   margin-top: -50px;
   margin-left: -100px}
 
+.iconify {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+                
+            }  
+
 
 
 
@@ -61,7 +69,9 @@ h1 {
 <div class="testtext" >
 <img src="whitebackground.jpg" width="2800" height="300" alt="banner"></div>
     
-    
+<span class="iconify" data-icon="typcn-shopping-cart" data-align="right" data-inline="false" 
+          style="color: red;" data-width="66" data-height="66"></span>    
+          
     
 <div id="html">
  
@@ -79,7 +89,7 @@ h1 {
 
 </div>
 
- 
+<script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script> 
 
 
 
