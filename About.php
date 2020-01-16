@@ -51,7 +51,16 @@
                 top: 40%;
                 left: 0%;
                 margin-top: -50px;
-                margin-left: -100px}    
+                margin-left: -100px
+            }  
+            
+            .top-right {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+                left: 820px;
+  
+            }
             
             
             
@@ -66,7 +75,13 @@
         <img class="img-circle" src="jasonB.jpg" width="228" height="229" alt="JasonB"><br>
         <div class="logo"><img src="magento_cert.jpg" width="212" height="255" alt="magento cert"/></div> 
         <div class="transparent"><img src="whitebackground.jpg" width="2800" height="300" alt="banner"></div>
-
+        
+        <div class="top-right">
+            <a href="Index.php">Home</a> 
+            &nbsp;
+            <a href="contact.php">Contact</a>
+            &nbsp;
+            <a href="purchase.php">Purchase</a></div>
 
                     
         <h1>About</h1>
